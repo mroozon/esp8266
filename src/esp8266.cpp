@@ -9,8 +9,8 @@
 #include <DallasTemperature.h>
 
 // Replace with your network details
-const char* ssid = "Hal9000";
-const char* password = "31415926";
+const char* ssid = "xxxxxxxxx";
+const char* password = "xxxxxxxxx";
 
 // Data wire is plugged into pin D1 on the ESP8266 12-E - GPIO 5
 #define ONE_WIRE_BUS 12
