@@ -9,11 +9,11 @@
 #include <DallasTemperature.h>
 
 // Replace with your network details
-const char* ssid = "REPLACE_WITH_YOUR_SSID";
-const char* password = "REPLACE_WITH_YOUR_PASSWORD";
+const char* ssid = "Hal9000";
+const char* password = "31415926";
 
 // Data wire is plugged into pin D1 on the ESP8266 12-E - GPIO 5
-#define ONE_WIRE_BUS 5
+#define ONE_WIRE_BUS 12
 
 // Setup a oneWire instance to communicate with any OneWire devices (not just Maxim/Dallas temperature ICs)
 OneWire oneWire(ONE_WIRE_BUS);
@@ -114,4 +114,4 @@ void loop() {
     client.stop();
     Serial.println("Client disconnected.");
   }
-}  
+}
